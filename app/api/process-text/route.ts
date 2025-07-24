@@ -1,3 +1,4 @@
+export const runtime = "nodejs"; 
 import { type NextRequest, NextResponse } from "next/server"
 import { HybridNLPProcessor } from "@/lib/hybrid-nlp-processor"
 import { EnhancedNeo4jService } from "@/lib/enhanced-neo4j-service"
